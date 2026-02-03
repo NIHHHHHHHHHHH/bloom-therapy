@@ -4,7 +4,7 @@ import Button from './Button';
 
 export default function HeroSection() {
   return (
-    <section className="min-h-screen bg-color-cream flex items-center py-0 2xl:py-14 px-6 xl:px-14 2xl:px-24 mt-8 md:mt-14 lg:mt-10 xl:mt-20">
+    <section className="min-h-screen bg-color-cream flex items-center py-0 xl:py-0 px-6 xl:px-14 2xl:px-24 mt-8 md:mt-14 lg:mt-10 xl:mt-20">
       <div className="max-w-full mx-auto w-full">
         <div className="flex flex-col md:grid md:grid-cols-[40%_60%] items-center">
           
