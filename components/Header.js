@@ -7,11 +7,15 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isVisible, setIsVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
+  const [isScrolled, setIsScrolled] = useState(false)
 
   // Handle header visibility on scroll
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY
+      
+      // Add background when scrolled past 10px
+      setIsScrolled(currentScrollY > 10)
       
       // Show header when scrolling up, hide when scrolling down
       if (currentScrollY < lastScrollY || currentScrollY < 10) {
@@ -31,8 +35,9 @@ export default function Header() {
   return (
     <>
       <header 
-        className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-150 ease-in-out
-          ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-150 ease-in-out
+          ${isVisible ? 'translate-y-0' : '-translate-y-full'}
+          ${isScrolled ? 'bg-cream' : 'bg-transparent'}`}
       >
         <nav className="max-w-full mx-auto px-6 xs:px-12 xl:px-14 2xl:px-16 py-8 md:py-12 lg:py-3 xl:py-4">
           <div className="flex items-center justify-between gap-6">
