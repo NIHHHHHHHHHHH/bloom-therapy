@@ -37,7 +37,7 @@ export default function Header() {
       <header 
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-150 ease-in-out
           ${isVisible ? 'translate-y-0' : '-translate-y-full'}
-          ${isScrolled ? 'bg-cream' : 'bg-transparent'}`}
+          ${isScrolled ? 'bg-primary' : 'bg-transparent'}`}
       >
         <nav className="max-w-full mx-auto px-6 xs:px-12 xl:px-14 2xl:px-16 py-8 md:py-12 lg:py-3 xl:py-4">
           <div className="flex items-center justify-between gap-6">
@@ -48,17 +48,17 @@ export default function Header() {
               aria-label="Toggle menu"
             >
               <Bars2Icon 
-                className={`w-9 h-8 scale-x-150 text-light-green absolute inset-0 transition-all duration-300
+                className={`w-9 h-8 scale-x-150 text-icon absolute inset-0 transition-all duration-300
                   ${mobileMenuOpen ? 'opacity-0 rotate-180' : 'opacity-100 rotate-0'}`}
               />
               <XMarkIcon 
-                className={`w-9 h-8 text-light-green absolute inset-0 transition-all duration-300
+                className={`w-9 h-8 text-icon absolute inset-0 transition-all duration-300
                   ${mobileMenuOpen ? 'opacity-100 rotate-0' : 'opacity-0 -rotate-180'}`}
               />
             </button>
 
             {/* Logo */}
-            <div className="text-lg lg:text-3xl xl:text-4xl text-right xs:text-left font-medium text-dark-green tracking-wide order-last lg:order-first relative z-50">
+            <div className="text-lg lg:text-3xl xl:text-4xl text-right xs:text-left font-medium text-foreground tracking-wide order-last lg:order-first relative z-50">
               Lilac Template
             </div>
 
@@ -66,13 +66,13 @@ export default function Header() {
             <div className="hidden lg:flex items-center gap-10 lg:gap-8 xl:gap-14">
               <a 
                 href="#" 
-                className="text-dark-green hover:opacity-70 transition-opacity text-xl font-normal"
+                className="text-foreground hover:opacity-70 transition-opacity text-xl font-normal"
               >
                 Blog
               </a>
               <a 
                 href="#" 
-                className="text-dark-green hover:opacity-70 transition-opacity text-xl font-normal"
+                className="text-foreground hover:opacity-70 transition-opacity text-xl font-normal"
               >
                 Contact
               </a>
@@ -87,14 +87,14 @@ export default function Header() {
           <div className="flex flex-col items-center justify-center h-full gap-2 xs:gap-8 sm:gap-12">
             <a 
               href="#" 
-              className="text-dark-green text-xl xs:text-4xl sm:text-5xl font-normal"
+              className="text-foreground text-xl xs:text-4xl sm:text-5xl font-normal"
               onClick={() => setMobileMenuOpen(false)}
             >
               Blog
             </a>
             <a 
               href="#" 
-              className="text-dark-green text-xl xs:text-4xl sm:text-5xl font-normal"
+              className="text-foreground text-xl xs:text-4xl sm:text-5xl font-normal"
               onClick={() => setMobileMenuOpen(false)}
             >
               Contact

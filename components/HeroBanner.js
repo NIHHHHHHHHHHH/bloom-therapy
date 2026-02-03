@@ -4,18 +4,18 @@ import Image from 'next/image';
 
 export default function HeroBanner() {
   return (
-    <section className="relative w-full   bg-parafin ">
+    <section className="relative w-full  bg-secondary">
       <div className="grid grid-cols-1 md:grid-cols-2 h-auto  md:h-[60vh] lg:h-[73vh] xl:h-[85vh]">
         {/* Left Content Column */}
         <div className="flex flex-col order-2 md:order-1">
           {/* Text Content */}
           <div className="flex-1 px-6 py-0 md:py-12 sm:px-12 md:px-10 xl:px-18 flex items-start md:items-center pt-10 md:pt-0">
             <div className="max-w-4xl w-full">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl  font-medium text-dark-green mb-8">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl  font-medium text-foreground mb-8">
                 Live a fulfilling life.
               </h1>
               
-              <div className="space-y-4 text-dark-green font-regular">
+              <div className="space-y-4 text-foreground font-regular">
                 <p className="text-xl">
                   Life can be challenging—especially when you're trying to balance your personal and professional life.
                 </p>

@@ -4,7 +4,7 @@ import Button from './Button';
 
 export default function HeroSection() {
   return (
-    <section className="min-h-screen bg-color-cream flex items-center py-0 xl:py-0 px-6 xl:px-14 2xl:px-24 mt-8 md:mt-14 lg:mt-10 xl:mt-20">
+    <section className="min-h-screen bg-primary flex items-center py-0 xl:py-14 px-6 xl:px-14 2xl:px-24 mt-8 md:mt-14 lg:mt-10 xl:mt-20">
       <div className="max-w-full mx-auto w-full">
         <div className="flex flex-col md:grid md:grid-cols-[40%_60%] items-center">
           
@@ -32,12 +32,12 @@ export default function HeroSection() {
 
           {/* Content Side */}
           <div className="flex flex-col justify-center items-center order-2 md:order-2 text-center md:text-left space-y-8 lg:space-y-10 max-w-6xl mb-20 2xl:mb-32">
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl 2xl:text-8xl font-medium text-dark-green">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl 2xl:text-8xl font-medium text-foreground">
               Live your life<br />
               in full bloom
             </h1>
             
-            <p className="text-lg sm:text-xl lg:text-xl text-dark-green font-medium">
+            <p className="text-lg sm:text-xl lg:text-xl text-foreground font-medium">
               Therapy for Adults in Minneapolis, MN.
             </p>
 

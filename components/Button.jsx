@@ -7,9 +7,9 @@ export default function Button({
   fullWidth = false,
   className: customClassName = ''
 }) {
-  const baseClassName = `inline-flex items-center justify-center gap-3 px-8 py-3.5 text-dark-green hover:bg-dark-green hover:text-white transition-all duration-300 text-sm font-medium uppercase group`;
+  const baseClassName = `inline-flex items-center justify-center gap-3 px-8 py-3.5 text-foreground hover:bg-foreground hover:text-white transition-all duration-300 text-sm font-medium uppercase group`;
   
-  const borderClassName = fullWidth ? 'border-t border-dark-green' : 'border border-dark-green';
+  const borderClassName = fullWidth ? 'border-t border-foreground' : 'border border-foreground';
   
   const widthClassName = fullWidth ? 'w-full' : '';
   
