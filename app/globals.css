@@ -35,7 +35,8 @@
   /* Background Colors */
   --color-primary: #F5F1EC;      /* Main background - hero, specialties, FAQs, footer (was cream) */
   --color-secondary: #e5e0da;    /* Secondary background - hero banner, cards, profession section, footer (was parafin) */
-  
+   --color-accent: #c2bfcb;       /* Accent background - work with me section (was lavender) */
+   
   /* Text Colors */
   --color-foreground: #223614;    /* All text, headings, paragraphs (was dark-green) */
   
