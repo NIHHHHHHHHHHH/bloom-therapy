@@ -5,6 +5,7 @@ import MySpecialties from '@/components/MySpecialities'
 import WorkWithMe from '@/components/WorkWithMe'
 import AboutMe from '@/components/AboutMe'
 import FAQs from '@/components/FAQs'
+import ProfessionalBackground from '@/components/ProfessionalBackground'
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <WorkWithMe />
       <AboutMe />
       <FAQs />
+      <ProfessionalBackground />
     </main>
   )
 }
