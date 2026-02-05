@@ -1,5 +1,6 @@
 import ArchImage from './ArchImage'
 import Button from './Button'
+import AnimatedDiv from './AnimatedDiv' // Adjust the import path as needed
 
 export default function AboutMe() {
   return (
@@ -10,24 +11,50 @@ export default function AboutMe() {
           {/* Left Side - Content */}
           <div className="flex flex-col justify-center items-center space-y-8 order-2 lg:order-1">
             <div className=" space-y-8 max-w-3xl w-full px-4 lg:px-10">
-              <h2 className="text-4xl lg:text-5xl xl:text-6xl font-medium text-foreground mb-8">
-                Hi, I'm Lilac.
-              </h2>
+              <AnimatedDiv
+                direction="up"
+                delay={0.2}
+                triggerOnce={false}
+                scrollDuration={0.6}
+              >
+                <h2 className="text-4xl lg:text-5xl xl:text-6xl font-medium text-foreground mb-8">
+                  Hi, I'm Lilac.
+                </h2>
+              </AnimatedDiv>
               
-              <p className="text-base lg:text-xl text-foreground font-normal">
-                I'm committed to providing a safe and supportive environment where we can explore your thoughts, feelings, and behaviors. With empathy and guidance, we'll work together to navigate the challenges life throws your way.
-              </p>
+              <AnimatedDiv
+                direction="up"
+                delay={0.3}
+                triggerOnce={false}
+                scrollDuration={0.6}
+              >
+                <p className="text-base lg:text-xl text-foreground font-normal">
+                  I'm committed to providing a safe and supportive environment where we can explore your thoughts, feelings, and behaviors. With empathy and guidance, we'll work together to navigate the challenges life throws your way.
+                </p>
+              </AnimatedDiv>
             </div>
 
-            <div className="max-w-3xl w-full flex justify-center items-center mt-16 2xl:mt-32">
+            <AnimatedDiv
+              direction="up"
+              delay={0.4}
+              triggerOnce={false}
+              scrollDuration={0.6}
+              className="max-w-3xl w-full flex justify-center items-center mt-16 2xl:mt-32"
+            >
               <Button href="#contact">
                  Let's Chat
               </Button>
-            </div>
+            </AnimatedDiv>
           </div>
 
           {/* Right Side - Images */}
-          <div className="flex justify-center lg:justify-center order-1 lg:order-2 mb-10 lg:mb-0">
+          <AnimatedDiv
+            direction="up"
+            delay={0.1}
+            triggerOnce={false}
+            scrollDuration={0.8}
+            className="flex justify-center lg:justify-center order-1 lg:order-2 mb-10 lg:mb-0"
+          >
             <ArchImage
               src="/images/about-arch.webp"
               alt="Person holding lilac flowers"
@@ -37,7 +64,7 @@ export default function AboutMe() {
               }}
               className="w-full max-w-20 sm:max-w-3xs lg:max-w-xs xl:max-w-sm 2xl:max-w-lg"
             />
-          </div>
+          </AnimatedDiv>
 
         </div>
       </div>

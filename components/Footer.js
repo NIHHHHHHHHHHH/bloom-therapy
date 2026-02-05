@@ -1,3 +1,5 @@
+import AnimatedDiv from './AnimatedDiv' // Adjust the import path as needed
+
 export default function Footer() {
   return (
     <footer className="bg-primary border-t border-foreground/10">
@@ -7,7 +9,13 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr_1fr] gap-12 lg:gap-8">
             
             {/* Column 1 - Name & Contact */}
-            <div className="text-center md:text-left">
+            <AnimatedDiv
+              direction="up"
+              delay={0.1}
+              triggerOnce={false}
+              scrollDuration={0.6}
+              className="text-center md:text-left"
+            >
               <h3 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-foreground mb-8">
                 Lilac Template
               </h3>
@@ -33,10 +41,16 @@ export default function Footer() {
                   </a>
                 </p>
               </div>
-            </div>
+            </AnimatedDiv>
 
             {/* Column 2 - Hours */}
-            <div className="text-center md:text-left">
+            <AnimatedDiv
+              direction="up"
+              delay={0.2}
+              triggerOnce={false}
+              scrollDuration={0.6}
+              className="text-center md:text-left"
+            >
               <h3 className="text-3xl xl:text-4xl font-medium text-foreground mb-6">
                 Hours
               </h3>
@@ -44,10 +58,16 @@ export default function Footer() {
                 Monday – Friday<br />
                 10am – 6pm
               </p>
-            </div>
+            </AnimatedDiv>
 
             {/* Column 3 - Find */}
-            <div className="text-center md:text-right">
+            <AnimatedDiv
+              direction="up"
+              delay={0.3}
+              triggerOnce={false}
+              scrollDuration={0.6}
+              className="text-center md:text-right"
+            >
               <h3 className="text-3xl xl:text-4xl font-medium text-foreground mb-6">
                 Find
               </h3>
@@ -71,7 +91,7 @@ export default function Footer() {
                   Blog
                 </a>
               </nav>
-            </div>
+            </AnimatedDiv>
 
           </div>
         </div>
@@ -82,36 +102,57 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto space-y-4">
           
           {/* Legal Links */}
-          <div className="flex flex-wrap justify-center gap-0  md:gap-6 text-base font-medium text-foreground mt-10">
-            <a href="#" className="underline hover:opacity-70 transition-opacity">
-              Privacy & Cookies Policy
-            </a>
-            <a href="#" className="underline hover:opacity-70 transition-opacity">
-              Good Faith Estimate
-            </a>
-            <a href="#" className="underline hover:opacity-70 transition-opacity">
-              Website Terms & Conditions
-            </a>
-            <a href="#" className="underline hover:opacity-70 transition-opacity">
-              Disclaimer
-            </a>
-          </div>
+          <AnimatedDiv
+            direction="up"
+            delay={0.2}
+            triggerOnce={false}
+            scrollDuration={0.6}
+          >
+            <div className="flex flex-wrap justify-center gap-0  md:gap-6 text-base font-medium text-foreground mt-10">
+              <a href="#" className="underline hover:opacity-70 transition-opacity">
+                Privacy & Cookies Policy
+              </a>
+              <a href="#" className="underline hover:opacity-70 transition-opacity">
+                Good Faith Estimate
+              </a>
+              <a href="#" className="underline hover:opacity-70 transition-opacity">
+                Website Terms & Conditions
+              </a>
+              <a href="#" className="underline hover:opacity-70 transition-opacity">
+                Disclaimer
+              </a>
+            </div>
+          </AnimatedDiv>
 
           {/* Credits */}
-          <p className="text-base text-foreground  text-center m-6 xs:mb-16">
-            Website Template Credits:{' '}
-            <a 
-              href="#" 
-              className="underline hover:opacity-70 transition-opacity font-medium"
-            >
-              Go Bloom Creative
-            </a>
-          </p>
+          <AnimatedDiv
+            direction="up"
+            delay={0.3}
+            triggerOnce={false}
+            scrollDuration={0.6}
+          >
+            <p className="text-base text-foreground  text-center m-6 xs:mb-16">
+              Website Template Credits:{' '}
+              <a 
+                href="#" 
+                className="underline hover:opacity-70 transition-opacity font-medium"
+              >
+                Go Bloom Creative
+              </a>
+            </p>
+          </AnimatedDiv>
 
           {/* Copyright */}
-          <p className="text-base text-foreground text-center">
-            All Rights Reserved © 2024 Your Business Name Here, LLC.
-          </p>
+          <AnimatedDiv
+            direction="up"
+            delay={0.4}
+            triggerOnce={false}
+            scrollDuration={0.6}
+          >
+            <p className="text-base text-foreground text-center">
+              All Rights Reserved © 2024 Your Business Name Here, LLC.
+            </p>
+          </AnimatedDiv>
 
         </div>
       </div>

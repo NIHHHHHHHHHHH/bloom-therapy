@@ -1,5 +1,6 @@
+'use client'
 
-
+import AnimatedDiv from './AnimatedDiv'
 import ArchImage from './ArchImage'
 import Button from './Button'
 
@@ -10,17 +11,29 @@ export default function HeroSection() {
         <div className="flex flex-col md:grid md:grid-cols-[40%_60%] items-center">
           
           {/* Image Side */}
-          <div className="flex justify-center lg:justify-start items-start order-1 md:order-1 w-full">
+          <AnimatedDiv 
+            className="flex justify-center lg:justify-start items-start order-1 md:order-1 w-full"
+            triggerOnce={true}
+            direction="up"
+            duration={0.8}
+            delay={0.6}
+          >
             <ArchImage
               src="/images/hero-arch.webp"
               alt="Person holding beautiful lilac flowers"
               className="w-full max-w-44 md:max-w-md lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl"
               sizes="(max-width: 768px) 176px, (max-width: 1024px) 448px, (max-width: 1280px) 576px, (max-width: 1536px) 672px, 768px"
             />
-          </div>
+          </AnimatedDiv>
 
           {/* Content Side */}
-          <div className="flex flex-col justify-center items-center order-2 md:order-2 text-center md:text-left space-y-8 lg:space-y-10 max-w-6xl mb-20 2xl:mb-32">
+          <AnimatedDiv 
+            className="flex flex-col justify-center items-center order-2 md:order-2 text-center md:text-left space-y-8 lg:space-y-10 max-w-6xl mb-20 2xl:mb-32"
+            triggerOnce={false}
+            direction="up"
+            duration={0.4}
+            delay={0.2}
+          >
             <h1 className="text-4xl sm:text-5xl lg:text-7xl 2xl:text-8xl font-medium text-foreground">
               Live your life<br />
               in full bloom
@@ -35,7 +48,7 @@ export default function HeroSection() {
                 CONNECT WITH ME
               </Button>
             </div>
-          </div>
+          </AnimatedDiv>
 
         </div>
       </div>
