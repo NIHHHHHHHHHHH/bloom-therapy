@@ -6,6 +6,8 @@ import WorkWithMe from '@/components/WorkWithMe'
 import AboutMe from '@/components/AboutMe'
 import FAQs from '@/components/FAQs'
 import ProfessionalBackground from '@/components/ProfessionalBackground'
+import CTA from '@/components/CTA'
+import Footer from '@/components/Footer'
 
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
       <AboutMe />
       <FAQs />
       <ProfessionalBackground />
+      <CTA />
+      <Footer />
     </main>
   )
 }
