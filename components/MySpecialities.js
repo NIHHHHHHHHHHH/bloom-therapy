@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import AnimatedDiv from './AnimatedDiv'; // Adjust the import path as needed
+import AnimatedDiv from './AnimatedDiv'; 
 
 const MySpecialties = () => {
   const specialties = [

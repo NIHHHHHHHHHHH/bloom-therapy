@@ -1,7 +1,7 @@
 'use client'
 
 import Accordion from './Accordion'
-import AnimatedDiv from './AnimatedDiv' // Adjust the import path as needed
+import AnimatedDiv from './AnimatedDiv' 
 
 export default function ProfessionalBackground() {
   const background = [

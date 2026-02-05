@@ -1,6 +1,6 @@
 import ArchImage from './ArchImage'
 import Button from './Button'
-import AnimatedDiv from './AnimatedDiv' // Adjust the import path as needed
+import AnimatedDiv from './AnimatedDiv'
 
 export default function AboutMe() {
   return (

@@ -2,7 +2,7 @@
 
 import ArchImage from './ArchImage'
 import Accordion from './Accordion'
-import AnimatedDiv from './AnimatedDiv' // Adjust the import path as needed
+import AnimatedDiv from './AnimatedDiv' 
 
 export default function FAQs() {
   const faqs = [
