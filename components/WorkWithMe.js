@@ -16,9 +16,9 @@ export default function WorkWithMe() {
         {/* Left Side - Image */}
         <AnimatedDiv
           direction="up"
-          delay={0.3}
+          delay={0.1}
+          duration={0.5}
           triggerOnce={false}
-          scrollDuration={0.4}
           className="relative h-70 md:h-full"
         >
           <img
@@ -33,9 +33,9 @@ export default function WorkWithMe() {
           <div className="flex-1 flex flex-col justify-center max-w-3xl px-2 sm:px-12 py-12 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 md:py-0">
             <AnimatedDiv
               direction="up"
-              delay={0.3}
+              delay={0.2}
+              duration={0.5}
               triggerOnce={false}
-              scrollDuration={0.4}
             >
               <h2 className="text-4xl lg:text-5xl 2xl:text-6xl font-medium text-foreground mb-8">
                 You're functional on the outside, but struggling on the inside.
@@ -45,8 +45,8 @@ export default function WorkWithMe() {
             <AnimatedDiv
               direction="up"
               delay={0.3}
+              duration={0.5}
               triggerOnce={false}
-              scrollDuration={0.4}
             >
               <p className="tex-base sm:text-lg xl:text-xl text-foreground mb-5 sm:mb-15 md:mb-7 xl:mb-10">
                 Many of my clients come to therapy feeling:
@@ -56,17 +56,17 @@ export default function WorkWithMe() {
             <AnimatedDiv
               direction="up"
               delay={0.4}
+              duration={0.5}
               triggerOnce={false}
-              scrollDuration={0.4}
             >
               <ul className="list-disc list-inside space-y-3 mx-2 sm:mx-5 xl:mx-6 mb-7 xl:mb-10 tex-base sm:text-lg xl:text-xl text-foreground">
                 {challenges.map((challenge, index) => (
                   <AnimatedDiv
                     key={index}
                     direction="up"
-                    delay={0.5 + (0.1 * index)}
+                    delay={0.5 + (0.05 * index)}
+                    duration={0.5}
                     triggerOnce={false}
-                    scrollDuration={0.5}
                   >
                     <li>
                       {challenge}
@@ -78,9 +78,9 @@ export default function WorkWithMe() {
 
             <AnimatedDiv
               direction="up"
-              delay={0.7}
+              delay={0.75}
+              duration={0.5}
               triggerOnce={false}
-              scrollDuration={0.5}
             >
               <p className="tex-base sm:text-lg xl:text-xl text-foreground leading-relaxed">
                 Therapy is a space to slow down, reconnect, and build resilience—not just symptom relief, but lasting change.
@@ -90,9 +90,9 @@ export default function WorkWithMe() {
 
           <AnimatedDiv
             direction="up"
-            delay={0.8}
+            delay={0.85}
+            duration={0.5}
             triggerOnce={false}
-            scrollDuration={0.4}
           >
             <Button href="#contact" className='h-12 lg:h-20' fullWidth>
               START THERAPY
