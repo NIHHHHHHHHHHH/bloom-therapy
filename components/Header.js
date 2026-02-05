@@ -82,26 +82,28 @@ export default function Header() {
       </header>
 
       {/* Mobile menu overlay */}
-      {mobileMenuOpen && (
-        <div className="lg:hidden fixed inset-0 z-40 pt-24">
-          <div className="flex flex-col items-center justify-center h-full gap-2 xs:gap-8 sm:gap-12">
-            <a 
-              href="#" 
-              className="text-foreground text-xl xs:text-4xl sm:text-5xl font-normal"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-             About
-            </a>
-            <a 
-              href="#" 
-              className="text-foreground text-xl xs:text-4xl sm:text-5xl font-normal"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Contact
-            </a>
-          </div>
+      <div 
+        className={`lg:hidden fixed inset-0 z-40 bg-primary transition-all duration-300 ${
+          mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+        }`}
+      >
+        <div className="flex flex-col items-center justify-center h-full gap-2 xs:gap-8 sm:gap-12">
+          <a 
+            href="#" 
+            className="text-foreground text-xl xs:text-4xl sm:text-5xl font-normal hover:opacity-70 transition-opacity"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+           About
+          </a>
+          <a 
+            href="#" 
+            className="text-foreground text-xl xs:text-4xl sm:text-5xl font-normal hover:opacity-70 transition-opacity"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            Contact
+          </a>
         </div>
-      )}
+      </div>
     </>
   )
 }
