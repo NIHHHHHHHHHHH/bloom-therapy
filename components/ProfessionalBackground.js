@@ -39,7 +39,7 @@ export default function ProfessionalBackground() {
           triggerOnce={false}
           scrollDuration={0.6}
         >
-          <Accordion items={background} defaultOpenIndex={0} variant="default" />
+          <Accordion items={background}  variant="default" />
         </AnimatedDiv>
       </div>
     </section>
