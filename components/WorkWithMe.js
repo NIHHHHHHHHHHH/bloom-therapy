@@ -11,15 +11,15 @@ export default function WorkWithMe() {
   ]
 
   return (
-    <section className="w-full md:h-screen bg-accent">
-      <div className="grid md:grid-cols-2 md:h-full">
+    <section className="w-full lg:h-screen bg-accent">
+      <div className="grid lg:grid-cols-2 lg:h-full">
         {/* Left Side - Image */}
         <AnimatedDiv
           direction="up"
           delay={0.1}
           duration={0.5}
           triggerOnce={false}
-          className="relative h-70 md:h-full"
+          className="relative h-100 sm:h-125 lg:h-full"
         >
           <img
             src="/images/start-therapy.webp"
@@ -29,15 +29,15 @@ export default function WorkWithMe() {
         </AnimatedDiv>
 
         {/* Right Side - Content */}
-        <div className="flex flex-col md:h-full">
-          <div className="flex-1 flex flex-col justify-center max-w-3xl px-2 sm:px-12 py-12 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 md:py-0">
+        <div className="flex flex-col lg:h-full">
+          <div className="flex-1 flex flex-col justify-center max-w-3xl px-6 sm:px-12 py-12 lg:mx-10 xl:mx-12 2xl:mx-16 lg:py-0">
             <AnimatedDiv
               direction="up"
               delay={0.2}
               duration={0.5}
               triggerOnce={false}
             >
-              <h2 className="text-4xl lg:text-5xl 2xl:text-6xl font-medium text-foreground mb-8">
+              <h2 className="text-3xl sm:text-4xl xl:text-5xl 2xl:text-6xl font-medium text-foreground mb-6 lg:mb-8">
                 You're functional on the outside, but struggling on the inside.
               </h2>
             </AnimatedDiv>
@@ -48,7 +48,7 @@ export default function WorkWithMe() {
               duration={0.5}
               triggerOnce={false}
             >
-              <p className="tex-base sm:text-lg xl:text-xl text-foreground mb-5 sm:mb-15 md:mb-7 xl:mb-10">
+              <p className="text-base sm:text-lg xl:text-xl text-foreground mb-6 lg:mb-7 xl:mb-10">
                 Many of my clients come to therapy feeling:
               </p>
             </AnimatedDiv>
@@ -59,7 +59,7 @@ export default function WorkWithMe() {
               duration={0.5}
               triggerOnce={false}
             >
-              <ul className="list-disc list-inside space-y-3 mx-2 sm:mx-5 xl:mx-6 mb-7 xl:mb-10 tex-base sm:text-lg xl:text-xl text-foreground">
+              <ul className="list-disc list-inside space-y-3 mx-4 sm:mx-5 xl:mx-6 mb-6 lg:mb-7 xl:mb-10 text-base sm:text-lg xl:text-xl text-foreground">
                 {challenges.map((challenge, index) => (
                   <AnimatedDiv
                     key={index}
@@ -82,7 +82,7 @@ export default function WorkWithMe() {
               duration={0.5}
               triggerOnce={false}
             >
-              <p className="tex-base sm:text-lg xl:text-xl text-foreground leading-relaxed">
+              <p className="text-base sm:text-lg xl:text-xl text-foreground leading-relaxed mb-6 lg:mb-0">
                 Therapy is a space to slow down, reconnect, and build resilience—not just symptom relief, but lasting change.
               </p>
             </AnimatedDiv>

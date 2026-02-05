@@ -31,7 +31,7 @@ export default function OurOffice() {
         </div>
 
         {/* Image Grid - 2 Images */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-12 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 mb-12 max-w-5xl mx-auto">
           {/* Image 1 */}
           <AnimatedDiv 
             direction="up" 
@@ -39,7 +39,7 @@ export default function OurOffice() {
             duration={0.5}
             triggerOnce={false}
           >
-            <div className="relative aspect-4/5 overflow-hidden rounded-lg">
+            <div className="relative aspect-4/3 md:aspect-4/5 overflow-hidden rounded-lg">
               <img
                 src="/images/office1.webp"
                 alt="Santa Monica therapy office - comfortable seating area"
@@ -55,7 +55,7 @@ export default function OurOffice() {
             duration={0.5}
             triggerOnce={false}
           >
-            <div className="relative aspect-4/5 overflow-hidden rounded-lg">
+            <div className="relative aspect-4/3 md:aspect-4/5 overflow-hidden rounded-lg">
               <img
                 src="/images/office2.webp"
                 alt="Therapy room with natural light in Santa Monica"
