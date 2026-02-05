@@ -7,16 +7,16 @@ import AnimatedDiv from './AnimatedDiv'
 export default function FAQs() {
   const faqs = [
     {
-      question: "Do you take insurance?",
-      answer: "Answer goes here."
+      question: "Do you offer in-person or online therapy?",
+      answer: "I offer both in-person therapy from my Santa Monica office and secure telehealth sessions for clients located anywhere in California. My office is a quiet, private space designed to feel calm and grounding."
     },
     {
-      question: "What are your rates?",
-      answer: "Answer goes here."
+      question: "What types of issues do you specialize in?",
+      answer: "I specialize in anxiety, panic, trauma (including EMDR), burnout, and perfectionism. I work primarily with high-achieving adults who feel functional on the outside but are struggling internally with stress, overthinking, or past experiences."
     },
     {
-      question: "Do you have any openings?",
-      answer: "Answer goes here."
+      question: "How long does therapy typically last?",
+      answer: "Therapy is individualized. Some clients find relief in a few months, while deeper work—especially trauma processing—may take longer. We'll work collaboratively to set goals and pace our work in a way that feels right for you."
     }
   ]
 
@@ -50,7 +50,7 @@ export default function FAQs() {
                 scrollDuration={0.6}
               >
                 <h2 className="text-4xl lg:text-5xl xl:text-6xl font-medium text-foreground mb-12 text-left">
-                  FAQs
+                  Frequently Asked Questions
                 </h2>
               </AnimatedDiv>
 

@@ -3,11 +3,11 @@ import AnimatedDiv from './AnimatedDiv'
 
 export default function WorkWithMe() {
   const challenges = [
-    "Persistent feelings of sadness or hopelessness",
-    "Trouble focusing or making decisions",
-    "Difficulty maintaining relationships",
-    "Feeling constantly exhausted or unmotivated",
-    "A pervasive sense of being overwhelmed"
+    "Constant worry or tension in their body",
+    "Difficulty sleeping or always bracing for something to go wrong",
+    "Stuck in overthinking or racing thoughts",
+    "Exhausted from years of pushing through stress",
+    "Disconnected from themselves despite outward success"
   ]
 
   return (
@@ -38,7 +38,7 @@ export default function WorkWithMe() {
               scrollDuration={0.4}
             >
               <h2 className="text-4xl lg:text-5xl 2xl:text-6xl font-medium text-foreground mb-8">
-                You don't have to do this all alone.
+                You're functional on the outside, but struggling on the inside.
               </h2>
             </AnimatedDiv>
 
@@ -49,7 +49,7 @@ export default function WorkWithMe() {
               scrollDuration={0.4}
             >
               <p className="tex-base sm:text-lg xl:text-xl text-foreground mb-5 sm:mb-15 md:mb-7 xl:mb-10">
-                If you are facing any of these, there's hope:
+                Many of my clients come to therapy feeling:
               </p>
             </AnimatedDiv>
 
@@ -83,7 +83,7 @@ export default function WorkWithMe() {
               scrollDuration={0.5}
             >
               <p className="tex-base sm:text-lg xl:text-xl text-foreground leading-relaxed">
-                With empathy and guidance, we'll work together to navigate the challenges life throws your way.
+                Therapy is a space to slow down, reconnect, and build resilience—not just symptom relief, but lasting change.
               </p>
             </AnimatedDiv>
           </div>
@@ -95,7 +95,7 @@ export default function WorkWithMe() {
             scrollDuration={0.4}
           >
             <Button href="#contact" className='h-12 lg:h-20' fullWidth>
-              WORK WITH ME
+              START THERAPY
             </Button>
           </AnimatedDiv>
         </div>

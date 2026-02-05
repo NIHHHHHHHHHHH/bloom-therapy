@@ -27,7 +27,7 @@ export default function HeroBanner() {
                 distance={30}
               >
                 <h1 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-medium text-foreground mb-8">
-                  Live a fulfilling life.
+                  You're not alone in this.
                 </h1>
               </AnimatedDiv>
               
@@ -40,11 +40,11 @@ export default function HeroBanner() {
                 distance={30}
               >
                 <p className="text-xl">
-                  Life can be challenging—especially when you're trying to balance your personal and professional life.
+                  High-achieving, thoughtful adults often feel functional on the outside—while quietly struggling with anxiety, stress, or the weight of past experiences.
                 </p>
                 
                 <p className="text-xl">
-                  It's easy to feel like you're alone in facing these challenges, but I want you to know that I'm here to help.
+                 Therapy can help you move from surviving to actually living—with more ease, clarity, and connection to yourself.
                 </p>
               </AnimatedDiv>
             </div>
@@ -60,7 +60,7 @@ export default function HeroBanner() {
             distance={30}
           >
             <Button href="#contact" className="h-15 xl:h-20" fullWidth>
-              Get in touch
+              LEARN HOW THERAPY HELPS 
             </Button>
           </AnimatedDiv>
         </div>

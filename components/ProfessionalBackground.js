@@ -7,15 +7,15 @@ export default function ProfessionalBackground() {
   const background = [
     {
       question: "Education",
-      answer: "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea."
+      answer: "I earned my Doctor of Psychology (PsyD) in Clinical Psychology, with specialized training in trauma-informed care, cognitive-behavioral therapy, and EMDR. My education emphasized integrative, evidence-based approaches to treating anxiety, trauma, and stress-related conditions."
     },
     {
       question: "Licensure",
-      answer: "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea."
+      answer: "I am a Licensed Clinical Psychologist in the state of California. I provide therapy to adults throughout California via secure telehealth, as well as in-person sessions from my Santa Monica office."
     },
     {
-      question: "Certifications",
-      answer: "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea."
+      question: "My Approach",
+      answer: "I integrate CBT, EMDR, mindfulness-based practices, and body-oriented techniques. My work is structured yet flexible, emphasizing safety, stabilization, and helping clients develop insight and resilience over time."
     }
   ]
 

@@ -35,17 +35,17 @@ export default function HeroSection() {
             delay={0.2}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-7xl 2xl:text-8xl font-medium text-foreground">
-              Live your life<br />
-              in full bloom
+              Heal your mind<br />
+              and find peace
             </h1>
             
             <p className="text-lg sm:text-xl lg:text-xl text-foreground font-medium">
-              Therapy for Adults in Minneapolis, MN.
+              Anxiety & trauma therapy in Santa Monica, CA
             </p>
 
             <div className="pt-2">
               <Button href="#contact">
-                CONNECT WITH ME
+                SCHEDULE A CONSULTATION
               </Button>
             </div>
           </AnimatedDiv>

@@ -1,18 +1,5 @@
 @import "tailwindcss";
 
-/* Plus Jakarta Sans - Modern, warm, and highly readable */
-@font-face {
-  font-family: 'Plus Jakarta Sans';
-  src: url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
-  font-display: swap;
-}
-
-/* Lora - Elegant serif for headings, adds sophistication */
-@font-face {
-  font-family: 'Lora';
-  src: url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
-  font-display: swap;
-}
 
 /* Custom theme variables - Coastal Calm + Grounded Warmth */
 @theme {
@@ -40,12 +27,7 @@
 /* Base styles */
 @layer base {
   
-  html {
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
+ 
   body {
     background-color: var(--color-primary);
     color: var(--color-foreground);

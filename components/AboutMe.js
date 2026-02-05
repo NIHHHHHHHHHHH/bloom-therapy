@@ -18,7 +18,7 @@ export default function AboutMe() {
                 scrollDuration={0.6}
               >
                 <h2 className="text-4xl lg:text-5xl xl:text-6xl font-medium text-foreground mb-8">
-                  Hi, I'm Lilac.
+                  Hi, I'm Dr. Maya Reynolds.
                 </h2>
               </AnimatedDiv>
               
@@ -29,7 +29,7 @@ export default function AboutMe() {
                 scrollDuration={0.6}
               >
                 <p className="text-base lg:text-xl text-foreground font-normal">
-                  I'm committed to providing a safe and supportive environment where we can explore your thoughts, feelings, and behaviors. With empathy and guidance, we'll work together to navigate the challenges life throws your way.
+                 I'm a licensed clinical psychologist based in Santa Monica, California. I work with high-achieving adults who feel overwhelmed by anxiety, stress, or the lingering effects of past experiences. My approach is warm, collaborative, and grounded—combining evidence-based methods like CBT, EMDR, and mindfulness to help you feel more regulated, connected, and resilient.
                 </p>
               </AnimatedDiv>
             </div>
@@ -42,7 +42,7 @@ export default function AboutMe() {
               className="max-w-3xl w-full flex justify-center items-center mt-16 2xl:mt-32"
             >
               <Button href="#contact">
-                 Let's Chat
+                 LEARN MORE ABOUT MY APPROACH
               </Button>
             </AnimatedDiv>
           </div>

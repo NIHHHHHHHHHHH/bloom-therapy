@@ -59,7 +59,7 @@ export default function Header() {
 
             {/* Logo */}
             <div className="text-lg lg:text-3xl xl:text-4xl text-right xs:text-left font-medium text-foreground tracking-wide order-last lg:order-first relative z-50">
-              Lilac Template
+              Dr. Maya Reynolds
             </div>
 
             {/* Desktop navigation */}
@@ -68,7 +68,7 @@ export default function Header() {
                 href="#" 
                 className="text-foreground hover:opacity-70 transition-opacity text-xl font-normal"
               >
-                Blog
+               About
               </a>
               <a 
                 href="#" 
@@ -90,7 +90,7 @@ export default function Header() {
               className="text-foreground text-xl xs:text-4xl sm:text-5xl font-normal"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Blog
+             About
             </a>
             <a 
               href="#" 

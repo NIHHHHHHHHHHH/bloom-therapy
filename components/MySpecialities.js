@@ -4,20 +4,20 @@ import AnimatedDiv from './AnimatedDiv';
 const MySpecialties = () => {
   const specialties = [
     {
-      title: "Self-Esteem",
-      description: "Building a strong sense of self-worth is key to living a fulfilled life. Let's work together to bolster your self-esteem.",
+      title: "Anxiety & Panic",
+      description: "Whether you're dealing with constant worry, panic attacks, or physical tension, I help you understand what's driving your anxiety and develop practical tools to feel more grounded and in control.",
       image: "/images/self-esteem.webp",
       imageAlt: "Person standing in a minimalist room with coffee"
     },
     {
-      title: "Relationships",
-      description: "Navigating relationships can be complex. I'm here to guide you through these complexities to help you form healthier connections.",
+      title: "Trauma & EMDR Therapy",
+      description: "Using evidence-based approaches like EMDR and trauma-informed therapy, I work with clients navigating past experiences—from single incidents to long-standing patterns—at a pace that feels safe and manageable.",
       image: "/images/relationships.webp",
       imageAlt: "Person sitting outdoors in a relaxed pose"
     },
     {
-      title: "Burnout",
-      description: "Feeling overwhelmed by your career is more common than you think. Together, we'll identify strategies to manage and prevent burnout.",
+      title: "Burnout & Perfectionism",
+      description: "If you're a high-achiever feeling exhausted by internal pressure or disconnected from yourself, therapy can help you develop more sustainable ways of living and working without losing your drive.",
       image: "/images/burnout.webp",
       imageAlt: "Person sitting at desk in contemplative pose"
     }
@@ -34,7 +34,7 @@ const MySpecialties = () => {
           scrollDuration={0.6}
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium text-foreground text-center mb-12 md:mb-16">
-            My Specialties
+            How I Can Help
           </h2>
         </AnimatedDiv>
 

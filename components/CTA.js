@@ -12,7 +12,7 @@ export default function CTA() {
           scrollDuration={0.6}
         >
           <h2 className="text-4xl lg:text-5xl  font-medium text-primary mb-8">
-            Get started today.
+            Ready to feel more like yourself again?
           </h2>
         </AnimatedDiv>
         
@@ -23,8 +23,7 @@ export default function CTA() {
           scrollDuration={0.6}
         >
           <p className="text-base lg:text-lg xl:text-xl text-primary leading-relaxed mb-20 max-w-3xl mx-auto mt-4">
-            Ready to take the first step towards a happier, healthier you?<br />
-            Contact me to book your first session. I look forward to starting this therapeutic journey with you.
+            If you're tired of feeling stuck in anxiety, stress, or overthinking—and you're ready to do the deeper work—I'm here to help. Let's talk about whether therapy is the right fit for you.
           </p>
         </AnimatedDiv>
 
@@ -38,7 +37,7 @@ export default function CTA() {
             href="#contact"
             variant="outline-primary"
           >
-            GET IN TOUCH 
+            SCHEDULE A FREE CONSULTATION  
           </Button>
         </AnimatedDiv>
       </div>

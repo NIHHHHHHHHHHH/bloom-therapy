@@ -17,19 +17,19 @@ export default function Footer() {
               className="text-center md:text-left"
             >
               <h3 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-foreground mb-8">
-                Lilac Template
+                Dr. Maya Reynolds
               </h3>
               <div className="space-y-3">
                 <p className="text-base lg:text-xl text-foreground">
-                  123 Example Road<br />
-                  Minneapolis, MN
+                  123th Street 45 W,<br />
+                   Santa Monica, CA 90401
                 </p>
                 <p className="text-base lg:text-xl">
                   <a 
-                    href="mailto:email@example.com" 
+                    href="mailto:contact@mayareynolds.com" 
                     className="text-foreground underline hover:opacity-70 transition-opacity"
                   >
-                    email@example.com
+                   contact@mayareynolds.com
                   </a>
                 </p>
                 <p className="text-base lg:text-xl">
@@ -37,7 +37,7 @@ export default function Footer() {
                     href="tel:5555555555" 
                     className="text-foreground underline hover:opacity-70 transition-opacity"
                   >
-                    (555) 555-5555
+                    (310) 555-7890
                   </a>
                 </p>
               </div>
@@ -56,7 +56,7 @@ export default function Footer() {
               </h3>
               <p className="text-base lg:text-xl text-foreground">
                 Monday – Friday<br />
-                10am – 6pm
+                9am – 6pm
               </p>
             </AnimatedDiv>
 
@@ -88,7 +88,7 @@ export default function Footer() {
                   href="#" 
                   className="block text-base lg:text-xl text-foreground underline hover:opacity-70 transition-opacity"
                 >
-                  Blog
+                  About
                 </a>
               </nav>
             </AnimatedDiv>
