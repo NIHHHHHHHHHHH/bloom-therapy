@@ -2,7 +2,7 @@ import Button from './Button'
 
 export default function CTA() {
   return (
-    <section className="bg-[#7e7b46] py-20 lg:py-27 px-5 sm:px-0">
+    <section className="bg-cta py-20 lg:py-27 px-5 sm:px-0">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl lg:text-5xl  font-medium text-primary mb-8">
           Get started today.
