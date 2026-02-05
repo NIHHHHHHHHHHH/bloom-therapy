@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dr. Maya Reynolds - Therapy Practice Website
 
-## Getting Started
+A modern, accessible website for a licensed clinical psychologist specializing in anxiety, trauma, and burnout therapy in Santa Monica, California.
 
-First, run the development server:
+## 🌟 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This website serves as the digital presence for Dr. Maya Reynolds' therapy practice, providing potential clients with information about services, approach, and office location. The design emphasizes calm, professionalism, and approachability—reflecting the therapeutic environment Dr. Reynolds creates for her clients.
+
+## 🎨 Design Philosophy
+
+The website features a coastal California aesthetic with a calming sage green and warm neutral color palette. The design prioritizes:
+
+- **Accessibility**: High contrast ratios and readable typography
+- **User Experience**: Clear navigation and intuitive layout
+- **Mobile-First**: Fully responsive across all devices
+- **Performance**: Optimized images and efficient code
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS v4
+- **Font**: Inter (Google Fonts)
+- **Icons**: Heroicons
+- **Deployment**: Vercel
+
+## 📂 Project Structure
+```
+├── app/
+│   ├── layout.js          # Root layout with metadata
+│   ├── page.js            # Homepage
+│   └── globals.css        # Global styles and theme variables
+├── components/
+│   ├── Header.js          # Navigation header
+│   ├── HeroSection.js     # Hero with CTA
+│   ├── HeroBanner.js      # Supporting message
+│   ├── MySpecialities.js  # Services overview
+│   ├── WorkWithMe.js      # Client challenges section
+│   ├── AboutMe.js         # Therapist bio
+│   ├── OurOffice.js       # Office location and details
+│   ├── ProfessionalBackground.js  # Credentials
+│   ├── FAQs.js            # Frequently asked questions
+│   ├── GetStarted.js      # Call-to-action
+│   ├── Footer.js          # Contact info and links
+│   ├── Button.js          # Reusable button component
+│   └── ArchImage.js       # Reusable arch-shaped image component
+├── public/
+│   ├── images/            # Website images
+│   └── fonts/             # Custom fonts (if any)
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 18+ 
+- npm or yarn
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/maya-wellness-portal.git
+cd maya-wellness-portal
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Run the development server:
+```bash
+npm run dev
+```
 
-## Deploy on Vercel
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Color Palette
+```css
+Primary Background:   #F7F5F2  /* Soft warm white */
+Secondary Background: #E8E4DF  /* Warm gray */
+Accent:              #A8B5B2  /* Sage green */
+CTA:                 #8B9D98  /* Deeper sage */
+Text:                #2D3534  /* Dark slate */
+Muted Text:          #6B7572  /* Medium gray */
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✨ Key Features
+
+- **Responsive Design**: Seamless experience across desktop, tablet, and mobile
+- **Performance Optimized**: Fast loading times with optimized images
+- **SEO Ready**: Semantic HTML and meta tags for search engines
+- **Accessibility**: WCAG 2.1 compliant with keyboard navigation support
+- **Interactive Elements**: Accordion FAQs, mobile menu, scroll-triggered header
+- **Custom Sections**: Unique "Our Office" section showcasing the practice location
+
+## 📱 Sections
+
+1. **Hero** - Main headline with call-to-action
+2. **Banner** - Supporting message
+3. **Services** - Three core specialties (Anxiety, Trauma/EMDR, Burnout)
+4. **Work With Me** - Common client challenges
+5. **About** - Therapist bio and approach
+6. **Our Office** - Location and session details
+7. **Professional Background** - Education, licensure, approach
+8. **FAQs** - Common questions with accordion interface
+9. **Get Started** - Final call-to-action
+10. **Footer** - Contact information and links
+
+## 🔧 Configuration
+
+### Theme Variables
+
+Theme colors and fonts are configured in `app/globals.css`:
+```css
+@theme {
+  --color-primary: #F7F5F2;
+  --color-foreground: #2D3534;
+  --font-family-sans: 'Inter', sans-serif;
+}
+```
+
+### Metadata
+
+SEO metadata is configured in `app/layout.js`:
+```js
+export const metadata = {
+  title: 'Dr. Maya Reynolds, PsyD | Therapist in Santa Monica, CA',
+  description: 'Licensed clinical psychologist...',
+}
+```
+
+Built with ❤️ using Next.js and Tailwind CSS
