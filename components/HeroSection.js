@@ -19,7 +19,7 @@ export default function HeroSection() {
             delay={0.6}
           >
             <ArchImage
-              src="/images/hero-arch.webp"
+              src="/images/herosec-img.webp"
               alt="Person holding beautiful lilac flowers"
               className="w-full max-w-44 md:max-w-md lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl"
               sizes="(max-width: 768px) 176px, (max-width: 1024px) 448px, (max-width: 1280px) 576px, (max-width: 1536px) 672px, 768px"

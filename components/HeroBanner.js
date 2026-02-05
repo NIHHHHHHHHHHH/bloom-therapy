@@ -73,7 +73,7 @@ export default function HeroBanner() {
           duration={0.4}
         >
           <Image
-            src="/images/hero-banner.webp"
+            src="/images/banner.webp"
             alt="Relaxing lifestyle scene with coffee, flowers, and straw hat"
             fill
             className="object-cover"

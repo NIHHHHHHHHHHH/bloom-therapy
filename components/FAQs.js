@@ -34,7 +34,7 @@ export default function FAQs() {
             className="flex justify-center"
           >
             <ArchImage
-              src="/images/faqs.webp"
+              src="/images/inviting-space.webp"
               alt="Lavender flowers in a vase"
               className="w-full max-w-35 md:max-w-sm xl:max-w-md 2xl:max-w-lg"
             />

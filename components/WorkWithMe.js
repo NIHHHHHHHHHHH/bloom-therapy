@@ -22,7 +22,7 @@ export default function WorkWithMe() {
           className="relative h-70 md:h-full"
         >
           <img
-            src="/images/work-with-me.webp"
+            src="/images/start-therapy.webp"
             alt="Therapy session"
             className="w-full h-full object-cover"
           />

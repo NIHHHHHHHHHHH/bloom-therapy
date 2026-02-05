@@ -6,19 +6,19 @@ const MySpecialties = () => {
     {
       title: "Anxiety & Panic",
       description: "Whether you're dealing with constant worry, panic attacks, or physical tension, I help you understand what's driving your anxiety and develop practical tools to feel more grounded and in control.",
-      image: "/images/self-esteem.webp",
+      image: "/images/card-1.webp",
       imageAlt: "Person standing in a minimalist room with coffee"
     },
     {
       title: "Trauma & EMDR Therapy",
       description: "Using evidence-based approaches like EMDR and trauma-informed therapy, I work with clients navigating past experiences—from single incidents to long-standing patterns—at a pace that feels safe and manageable.",
-      image: "/images/relationships.webp",
+      image: "/images/card-2.webp",
       imageAlt: "Person sitting outdoors in a relaxed pose"
     },
     {
       title: "Burnout & Perfectionism",
       description: "If you're a high-achiever feeling exhausted by internal pressure or disconnected from yourself, therapy can help you develop more sustainable ways of living and working without losing your drive.",
-      image: "/images/burnout.webp",
+      image: "/images/card-3.webp",
       imageAlt: "Person sitting at desk in contemplative pose"
     }
   ];

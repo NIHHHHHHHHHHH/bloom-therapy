@@ -56,10 +56,10 @@ export default function AboutMe() {
             className="flex justify-center lg:justify-center order-1 lg:order-2 mb-10 lg:mb-0"
           >
             <ArchImage
-              src="/images/about-arch.webp"
+              src="/images/Dr-Maya-Reynolds.webp"
               alt="Person holding lilac flowers"
               overlayImage={{
-                src: "/images/about-circle.webp",
+                src: "/images/small-circle.webp",
                 alt: "White hydrangea flowers"
               }}
               className="w-full max-w-20 sm:max-w-3xs lg:max-w-xs xl:max-w-sm 2xl:max-w-lg"
