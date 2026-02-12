@@ -1,7 +1,7 @@
 'use client'
 
-import AnimatedDiv from './AnimatedDiv'
-import Button from './Button'
+import AnimatedDiv from '../Resuable/AnimatedDiv'
+import Button from '../Resuable/Button'
 import Image from 'next/image'
 
 export default function HeroBanner() {

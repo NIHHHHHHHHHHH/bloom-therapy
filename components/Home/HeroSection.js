@@ -1,8 +1,8 @@
 'use client'
 
-import AnimatedDiv from './AnimatedDiv'
-import ArchImage from './ArchImage'
-import Button from './Button'
+import AnimatedDiv from '../Resuable/AnimatedDiv'
+import ArchImage from '../Resuable/ArchImage'
+import Button from '../Resuable/Button'
 
 export default function HeroSection() {
   return (

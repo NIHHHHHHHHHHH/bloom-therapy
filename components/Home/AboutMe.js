@@ -1,6 +1,6 @@
-import ArchImage from './ArchImage'
-import Button from './Button'
-import AnimatedDiv from './AnimatedDiv'
+import ArchImage from '../Resuable/ArchImage'
+import Button from '../Resuable/Button'
+import AnimatedDiv from '../Resuable/AnimatedDiv'
 
 export default function AboutMe() {
   return (

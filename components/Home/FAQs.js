@@ -1,8 +1,8 @@
 'use client'
 
-import ArchImage from './ArchImage'
-import Accordion from './Accordion'
-import AnimatedDiv from './AnimatedDiv' 
+import ArchImage from '../Resuable/ArchImage'
+import Accordion from '../Resuable/Accordion'
+import AnimatedDiv from '../Resuable/AnimatedDiv' 
 
 export default function FAQs() {
   const faqs = [

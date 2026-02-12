@@ -1,4 +1,4 @@
-import AnimatedDiv from './AnimatedDiv'
+import AnimatedDiv from '../Resuable/AnimatedDiv'
 
 export default function OurOffice() {
   return (

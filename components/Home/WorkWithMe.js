@@ -1,5 +1,5 @@
-import Button from './Button'
-import AnimatedDiv from './AnimatedDiv' 
+import Button from '../Resuable/Button'
+import AnimatedDiv from '../Resuable/AnimatedDiv' 
 
 export default function WorkWithMe() {
   const challenges = [
