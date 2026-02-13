@@ -58,14 +58,17 @@ export default function Header() {
             </button>
 
             {/* Logo */}
-            <div className="text-lg lg:text-3xl xl:text-4xl text-right xs:text-left font-medium text-foreground tracking-wide order-last lg:order-first relative z-50">
-              Dr. Maya Reynolds
-            </div>
+              <a 
+                href="/"
+                className="text-lg lg:text-3xl xl:text-4xl text-right xs:text-left font-medium text-foreground tracking-wide order-last lg:order-first relative z-50 hover:opacity-70 transition-opacity"
+                >
+                Dr. Maya Reynolds
+            </a>
 
             {/* Desktop navigation */}
             <div className="hidden lg:flex items-center gap-10 lg:gap-8 xl:gap-14">
               <a 
-                href="#" 
+                href="/about" 
                 className="text-foreground hover:opacity-70 transition-opacity text-xl font-normal"
               >
                About
@@ -89,7 +92,7 @@ export default function Header() {
       >
         <div className="flex flex-col items-center justify-center h-full gap-2 xs:gap-8 sm:gap-12">
           <a 
-            href="#" 
+            href="/about" 
             className="text-foreground text-xl xs:text-4xl sm:text-5xl font-normal hover:opacity-70 transition-opacity"
             onClick={() => setMobileMenuOpen(false)}
           >
