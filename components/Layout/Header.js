@@ -74,7 +74,7 @@ export default function Header() {
                About
               </a>
               <a 
-                href="#" 
+                href="/contact" 
                 className="text-foreground hover:opacity-70 transition-opacity text-xl font-normal"
               >
                 Contact
@@ -99,7 +99,7 @@ export default function Header() {
            About
           </a>
           <a 
-            href="#" 
+            href="/contact" 
             className="text-foreground text-xl xs:text-4xl sm:text-5xl font-normal hover:opacity-70 transition-opacity"
             onClick={() => setMobileMenuOpen(false)}
           >

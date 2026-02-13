@@ -73,19 +73,19 @@ export default function Footer() {
               </h3>
               <nav className="space-y-3">
                 <a 
-                  href="#" 
+                  href="/" 
                   className="block text-base lg:text-xl text-foreground underline hover:opacity-70 transition-opacity"
                 >
                   Home
                 </a>
                 <a 
-                  href="#" 
+                  href="/contact" 
                   className="block text-base lg:text-xl text-foreground underline hover:opacity-70 transition-opacity"
                 >
                   Contact
                 </a>
                 <a 
-                  href="#" 
+                  href="/about" 
                   className="block text-base lg:text-xl text-foreground underline hover:opacity-70 transition-opacity"
                 >
                   About
