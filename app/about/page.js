@@ -1,6 +1,9 @@
 import Header from '@/components/Layout/Header'
 import Footer from '@/components/Layout/Footer'
 import AboutHero from '@/components/About/AboutHero'
+import DetailedBio from '@/components/About/DetailedBio'
+import TherapeuticApproach from '@/components/About/TherapeuticApproach'
+
 
 export const metadata = {
   title: 'About Dr. Maya Reynolds | Licensed Clinical Psychologist',
@@ -12,6 +15,8 @@ export default function AboutPage() {
     <main>
       <Header />
       <AboutHero />
+      <DetailedBio />
+      <TherapeuticApproach />
       <Footer />
     </main>
   )
