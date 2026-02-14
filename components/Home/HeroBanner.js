@@ -59,7 +59,7 @@ export default function HeroBanner() {
             delay={0.8}
             distance={30}
           >
-            <Button href="#contact" className="h-15 xl:h-20" fullWidth>
+            <Button href="/contact" className="h-15 xl:h-20" fullWidth>
               LEARN HOW THERAPY HELPS 
             </Button>
           </AnimatedDiv>

@@ -41,7 +41,7 @@ export default function AboutMe() {
               scrollDuration={0.6}
               className="max-w-3xl w-full flex justify-center items-center mt-16 2xl:mt-32"
             >
-              <Button href="#contact">
+              <Button href="/contact">
                  LEARN MORE ABOUT MY APPROACH
               </Button>
             </AnimatedDiv>

@@ -34,7 +34,7 @@ export default function CTA() {
           scrollDuration={0.6}
         >
           <Button 
-            href="#contact"
+            href="/contact"
             variant="outline-primary"
           >
             SCHEDULE A FREE CONSULTATION  

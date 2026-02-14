@@ -94,7 +94,7 @@ export default function WorkWithMe() {
             duration={0.5}
             triggerOnce={false}
           >
-            <Button href="#contact" className='h-12 lg:h-20' fullWidth>
+            <Button href="/contact" className='h-12 lg:h-20' fullWidth>
               START THERAPY
             </Button>
           </AnimatedDiv>

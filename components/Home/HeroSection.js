@@ -44,7 +44,7 @@ export default function HeroSection() {
             </p>
 
             <div className="pt-2">
-              <Button href="#contact">
+              <Button href="/contact">
                 SCHEDULE A CONSULTATION
               </Button>
             </div>
