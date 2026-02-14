@@ -1,53 +1,127 @@
 # Dr. Maya Reynolds - Therapy Practice Website
 
-A modern, accessible website for a licensed clinical psychologist specializing in anxiety, trauma, and burnout therapy in Santa Monica, California.
+A modern, fully responsive website for a licensed clinical psychologist specializing in anxiety, trauma, and burnout therapy. Built with Next.js and Tailwind CSS, featuring smooth animations, SEO optimization, and an intuitive user experience.
+
+🔗 **[View Live Site](https://bloom-therapy-steel.vercel.app)** | 📂 **[View Code](https://github.com/NIHHHHHHHHHHH/bloom-therapy)**
 
 ## 🌟 Overview
 
-This website serves as the digital presence for Dr. Maya Reynolds' therapy practice, providing potential clients with information about services, approach, and office location. The design emphasizes calm, professionalism, and approachability—reflecting the therapeutic environment Dr. Reynolds creates for her clients.
+This project showcases a complete web solution for mental health professionals. The website emphasizes accessibility, trust, and ease of use—critical factors for therapy practices. It includes multiple pages, interactive forms, and is optimized for both desktop and mobile devices.
 
-## 🎨 Design Philosophy
+## ✨ Key Features
 
-The website features a coastal California aesthetic with a calming sage green and warm neutral color palette. The design prioritizes:
-
-- **Accessibility**: High contrast ratios and readable typography
-- **User Experience**: Clear navigation and intuitive layout
-- **Mobile-First**: Fully responsive across all devices
-- **Performance**: Optimized images and efficient code
+- **Fully Responsive Design**: Seamless experience across all devices (mobile, tablet, desktop)
+- **Modern Animations**: Smooth, performance-optimized animations using Framer Motion
+- **SEO Optimized**: Meta tags, semantic HTML, and optimized content for search engines
+- **Contact Form**: Functional form with validation and user feedback
+- **Google Maps Integration**: Interactive map showing office location
+- **Accessibility**: WCAG 2.1 compliant with keyboard navigation and screen reader support
+- **Performance**: Optimized images, lazy loading, and fast page loads
+- **Component Architecture**: Reusable, modular components for maintainability
 
 ## 🛠️ Tech Stack
 
 - **Framework**: Next.js 15 (App Router)
 - **Styling**: Tailwind CSS v4
-- **Font**: Inter (Google Fonts)
+- **Animations**: Framer Motion
 - **Icons**: Heroicons
+- **Fonts**: Plus Jakarta Sans, Lora (serif)
+- **Image Optimization**: Next.js Image component
 - **Deployment**: Vercel
 
 ## 📂 Project Structure
 ```
 ├── app/
-│   ├── layout.js          # Root layout with metadata
-│   ├── page.js            # Homepage
-│   └── globals.css        # Global styles and theme variables
+│   ├── layout.js           # Root layout with metadata
+│   ├── page.js             # Homepage
+│   ├── about/
+│   │   └── page.js         # About page
+│   ├── contact/
+│   │   └── page.js         # Contact page
+│   └── globals.css         # Global styles and theme
 ├── components/
-│   ├── Header.js          # Navigation header
-│   ├── HeroSection.js     # Hero with CTA
-│   ├── HeroBanner.js      # Supporting message
-│   ├── MySpecialities.js  # Services overview
-│   ├── WorkWithMe.js      # Client challenges section
-│   ├── AboutMe.js         # Therapist bio
-│   ├── OurOffice.js       # Office location and details
-│   ├── ProfessionalBackground.js  # Credentials
-│   ├── FAQs.js            # Frequently asked questions
-│   ├── GetStarted.js      # Call-to-action
-│   ├── Footer.js          # Contact info and links
-│   ├── Button.js          # Reusable button component
-│   └── ArchImage.js       # Reusable arch-shaped image component
-├── public/
-│   ├── images/            # Website images
-│   └── fonts/             # Custom fonts (if any)
-└── README.md
+│   ├── Header.js           # Navigation with mobile menu
+│   ├── Footer.js           # Site footer
+│   ├── HeroSection.js      # Homepage hero
+│   ├── MySpecialities.js   # Services overview
+│   ├── WorkWithMe.js       # Client challenges section
+│   ├── AboutMe.js          # Therapist bio
+│   ├── OurOffice.js        # Office details and images
+│   ├── ProfessionalBackground.js  # Credentials accordion
+│   ├── FAQs.js             # Frequently asked questions
+│   ├── CTA.js              # Call-to-action section
+│   ├── about/              # About page components
+│   │   ├── AboutHero.js
+│   │   ├── DetailedBio.js
+│   │   ├── TherapeuticApproach.js
+│   │   ├── EducationCredentials.js
+│   │   ├── WhyIBecameTherapist.js
+│   │   └── AboutCTA.js
+│   ├── contact/            # Contact page components
+│   │   ├── ContactHero.js
+│   │   ├── ContactForm.js
+│   │   ├── ContactInfo.js
+│   │   └── ContactMap.js
+│   └── Resuable/           # Reusable components
+│       ├── Button.jsx
+│       ├── Accordion.js
+│       ├── AnimatedDiv.js
+│       └── ArchImage.js
+└── public/
+    ├── images/             # Website images
+    └── fonts/              # Custom fonts (if any)
 ```
+
+## 🎨 Design System
+
+### Color Palette
+```css
+Primary Background:   #F8F6F3  /* Soft warm white */
+Secondary Background: #E8E3DC  /* Warm sand */
+Accent:              #D4C9BC  /* Warm taupe */
+CTA:                 #9B8B7E  /* Grounded clay */
+Foreground Text:     #2C2420  /* Deep warm brown */
+Icons:               #7A9B9E  /* Soft sage-blue */
+Hover:               #5D7F82  /* Deeper sage-blue */
+```
+
+### Typography
+
+- **Primary Font**: Plus Jakarta Sans (sans-serif)
+- **Secondary Font**: Lora (serif, for emphasis)
+- **Font Weights**: 300, 400, 500, 600, 700
+
+### Spacing & Layout
+
+- **Container Max Width**: 1400px
+- **Section Padding**: 64px (mobile) - 96px (desktop)
+- **Component Spacing**: Consistent 8px grid system
+
+## 📱 Pages
+
+### Homepage
+- Hero section with main headline and CTA
+- Brief introduction banner
+- Three core services/specialties
+- "Work With Me" section addressing client challenges
+- About preview with professional photo
+- Office location and details
+- Professional background (accordion)
+- FAQ section
+- Final CTA
+
+### About Page
+- Detailed professional bio
+- Therapeutic approach and methodologies
+- Education and credentials
+- Personal story and philosophy
+- Call-to-action
+
+### Contact Page
+- Contact form with validation
+- Office information (address, phone, email, hours)
+- Google Maps integration
+- Parking and accessibility details
 
 ## 🚀 Getting Started
 
@@ -57,78 +131,129 @@ The website features a coastal California aesthetic with a calming sage green an
 - npm or yarn
 
 ### Installation
-
-1. Clone the repository:
 ```bash
+# Clone the repository
 git clone https://github.com/yourusername/maya-wellness-portal.git
+
+# Navigate to project directory
 cd maya-wellness-portal
-```
 
-2. Install dependencies:
-```bash
+# Install dependencies
 npm install
-```
 
-3. Run the development server:
-```bash
+# Run development server
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🎨 Color Palette
-```css
-Primary Background:   #F7F5F2  /* Soft warm white */
-Secondary Background: #E8E4DF  /* Warm gray */
-Accent:              #A8B5B2  /* Sage green */
-CTA:                 #8B9D98  /* Deeper sage */
-Text:                #2D3534  /* Dark slate */
-Muted Text:          #6B7572  /* Medium gray */
+## 📦 Build & Deploy
+
+### Build for Production
+```bash
+npm run build
 ```
 
-## ✨ Key Features
+### Deploy to Vercel
+```bash
+npm install -g vercel
+vercel --prod
+```
 
-- **Responsive Design**: Seamless experience across desktop, tablet, and mobile
-- **Performance Optimized**: Fast loading times with optimized images
-- **SEO Ready**: Semantic HTML and meta tags for search engines
-- **Accessibility**: WCAG 2.1 compliant with keyboard navigation support
-- **Interactive Elements**: Accordion FAQs, mobile menu, scroll-triggered header
-- **Custom Sections**: Unique "Our Office" section showcasing the practice location
+Or connect your GitHub repository to Vercel for automatic deployments on push.
 
-## 📱 Sections
+## ✨ Key Components
 
-1. **Hero** - Main headline with call-to-action
-2. **Banner** - Supporting message
-3. **Services** - Three core specialties (Anxiety, Trauma/EMDR, Burnout)
-4. **Work With Me** - Common client challenges
-5. **About** - Therapist bio and approach
-6. **Our Office** - Location and session details
-7. **Professional Background** - Education, licensure, approach
-8. **FAQs** - Common questions with accordion interface
-9. **Get Started** - Final call-to-action
-10. **Footer** - Contact information and links
+### Reusable Components
+
+**Button** - Versatile button with multiple variants and animated arrow
+```javascript
+<Button href="/contact" variant="default">
+  Get in Touch
+</Button>
+```
+
+**Accordion** - Expandable sections with smooth animations
+```javascript
+<Accordion items={faqs} defaultOpenIndex={0} variant="faq" />
+```
+
+**AnimatedDiv** - Scroll-triggered animations with customizable direction
+```javascript
+<AnimatedDiv direction="left" delay={0.2}>
+  <YourContent />
+</AnimatedDiv>
+```
+
+**ArchImage** - Signature arch-shaped image with optional overlay
+```javascript
+<ArchImage 
+  src="/images/hero.jpg" 
+  alt="Description"
+  overlayImage={{ src: "/images/overlay.jpg", alt: "Overlay" }}
+/>
+```
+
+## 🎯 Performance Optimizations
+
+- **Image Optimization**: Next.js Image component with WebP format
+- **Lazy Loading**: Images and components load on demand
+- **Code Splitting**: Automatic code splitting by Next.js
+- **Font Optimization**: Google Fonts with display swap
+- **Minification**: CSS and JavaScript minified in production
+- **Caching**: Static assets cached with appropriate headers
+
+## 📊 SEO Features
+
+- Semantic HTML structure
+- Meta tags for social sharing (Open Graph, Twitter Card)
+- Structured data for local business
+- XML sitemap
+- Optimized page titles and descriptions
+- Alt text for all images
+- Mobile-friendly design
+- Fast loading times
 
 ## 🔧 Configuration
 
-### Theme Variables
+### Theme Customization
 
-Theme colors and fonts are configured in `app/globals.css`:
+Update theme variables in `app/globals.css`:
 ```css
 @theme {
-  --color-primary: #F7F5F2;
-  --color-foreground: #2D3534;
-  --font-family-sans: 'Inter', sans-serif;
+  --color-primary: #F8F6F3;
+  --color-foreground: #2C2420;
+  /* ... */
 }
 ```
 
 ### Metadata
 
-SEO metadata is configured in `app/layout.js`:
-```js
+Update SEO metadata in each page's layout or page component:
+```javascript
 export const metadata = {
-  title: 'Dr. Maya Reynolds, PsyD | Therapist in Santa Monica, CA',
-  description: 'Licensed clinical psychologist...',
+  title: 'Your Title',
+  description: 'Your description',
 }
 ```
 
-Built with ❤️ using Next.js and Tailwind CSS
+## 🌐 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## 📝 Future Enhancements
+
+- [ ] Blog section with CMS integration
+- [ ] Online booking/scheduling system
+- [ ] Client portal for secure messaging
+- [ ] Multi-language support
+- [ ] Dark mode toggle
+- [ ] Enhanced analytics integration
+
+**Built with ❤️ using Next.js, Tailwind CSS, and Framer Motion**
+
+*This website demonstrates modern web development practices for healthcare and wellness industries, with emphasis on accessibility, user experience, and performance.*
