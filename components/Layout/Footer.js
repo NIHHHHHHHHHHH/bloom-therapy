@@ -16,7 +16,7 @@ export default function Footer() {
               scrollDuration={0.6}
               className="text-center md:text-left"
             >
-              <h3 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-foreground mb-8">
+              <h3 className="text-xl lg:text-2xl xl:text-4xl font-medium text-foreground mb-8">
                 Dr. Maya Reynolds
               </h3>
               <div className="space-y-3">

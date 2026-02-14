@@ -60,7 +60,7 @@ export default function Header() {
             {/* Logo */}
               <a 
                 href="/"
-                className="text-lg lg:text-3xl xl:text-4xl text-right xs:text-left font-medium text-foreground tracking-wide order-last lg:order-first relative z-50 hover:opacity-70 transition-opacity"
+                className="text-lg lg:text-2xl  text-right xs:text-left font-medium text-foreground tracking-wide order-last lg:order-first relative z-50 hover:opacity-70 transition-opacity"
                 >
                 Dr. Maya Reynolds
             </a>
