@@ -132,13 +132,7 @@ export default function Footer() {
             scrollDuration={0.6}
           >
             <p className="text-base text-foreground  text-center m-6 xs:mb-16">
-              Website Template Credits:{' '}
-              <a 
-                href="#" 
-                className="underline hover:opacity-70 transition-opacity font-medium"
-              >
-                Go Bloom Creative
-              </a>
+              Compassionate, evidence-based therapy for anxiety, trauma, and burnout
             </p>
           </AnimatedDiv>
 
@@ -150,7 +144,7 @@ export default function Footer() {
             scrollDuration={0.6}
           >
             <p className="text-base text-foreground text-center">
-              All Rights Reserved © 2024 Your Business Name Here, LLC.
+               All Rights Reserved © 2025 Dr. Maya Reynolds, PsyD.
             </p>
           </AnimatedDiv>
 
