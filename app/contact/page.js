@@ -1,6 +1,7 @@
 import Header from '@/components/Layout/Header'
 import Footer from '@/components/Layout/Footer'
-import ContactHero from '@/components/contact/ContactHero'
+import ContactHero from '@/components/Contact/ContactHero'
+import ContactForm from '@/components/Contact/ContactForm'
 
 export const metadata = {
   title: 'Contact Dr. Maya Reynolds | Schedule a Consultation',
@@ -12,6 +13,7 @@ export default function ContactPage() {
     <main>
       <Header />
       <ContactHero />
+      <ContactForm />
       <Footer />
     </main>
   )
