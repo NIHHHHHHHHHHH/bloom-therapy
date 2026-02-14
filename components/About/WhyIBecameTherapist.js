@@ -2,8 +2,8 @@ import AnimatedDiv from '@/components/Resuable/AnimatedDiv'
 
 export default function WhyIBecameTherapist() {
   return (
-    <section className="bg-secondary py-16 lg:py-24 px-6 lg:px-14 xl:px-20 2xl:px-24">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-secondary py-16 lg:py-24 px-6 xs:px-12 xl:px-14 2xl:px-16">
+      <div className="max-w-full">
         
         <AnimatedDiv className="space-y-6">
           <h2 className="text-3xl lg:text-4xl font-medium text-foreground mb-8">
